@@ -1,0 +1,13 @@
+{
+  "name": "@awo/git-adapter",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "../../../dist/packages/git-adapter/src/index.js",
+  "types": "../../../dist/packages/git-adapter/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@awo/schema": "workspace:*"
+  }
+}

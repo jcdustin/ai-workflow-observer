@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "../..",
+    "outDir": "../../dist"
+  },
+  "references": [
+    { "path": "../../packages/schema" },
+    { "path": "../../packages/git-adapter" },
+    { "path": "../../packages/cursor-adapter" },
+    { "path": "../../packages/evaluator" },
+    { "path": "../../packages/privacy" }
+  ],
+  "include": ["src/**/*.ts"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@awo/cursor-adapter",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "../../../dist/packages/cursor-adapter/src/index.js",
+  "types": "../../../dist/packages/cursor-adapter/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@awo/schema": "workspace:*"
+  }
+}

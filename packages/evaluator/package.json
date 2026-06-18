@@ -1,0 +1,13 @@
+{
+  "name": "@awo/evaluator",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "../../../dist/packages/evaluator/src/index.js",
+  "types": "../../../dist/packages/evaluator/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@awo/schema": "workspace:*"
+  }
+}

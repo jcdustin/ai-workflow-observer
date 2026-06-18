@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+tmp/
+tmp-collector-run.json
+tmp-*.json
+data/
+data-test/

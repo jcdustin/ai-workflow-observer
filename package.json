@@ -1,0 +1,38 @@
+{
+  "name": "ai-workflow-observer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enterprise AI coding workflow observability and productivity evaluation.",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "observability",
+    "productivity",
+    "cursor",
+    "opencode",
+    "mcp",
+    "evaluation"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "check": "tsc -b --pretty false",
+    "collector": "node dist/apps/collector-cli/src/index.js",
+    "dev:collector": "tsx apps/collector-cli/src/index.ts",
+    "ingestion": "node dist/apps/ingestion-api/src/index.js",
+    "dev:ingestion": "tsx apps/ingestion-api/src/index.ts"
+  },
+  "dependencies": {
+    "@awo/cursor-adapter": "workspace:*",
+    "@awo/evaluator": "workspace:*",
+    "@awo/git-adapter": "workspace:*",
+    "@awo/privacy": "workspace:*",
+    "@awo/schema": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  },
+  "packageManager": "pnpm@9.15.4"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@awo/privacy",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "../../../dist/packages/privacy/src/index.js",
+  "types": "../../../dist/packages/privacy/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@awo/schema": "workspace:*"
+  }
+}
