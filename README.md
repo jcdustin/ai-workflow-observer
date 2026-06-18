@@ -2,6 +2,8 @@
 
 Privacy-first observability for real-world AI coding workflows.
 
+中文版本: [README.zh-CN.md](README.zh-CN.md)
+
 AI Workflow Observer helps teams understand whether AI coding tools are actually reducing workflow friction. It collects local usage signals from tools such as Cursor, normalizes them into tasks, turns, corrections, and friction events, and uploads privacy-controlled metrics for team-level analysis.
 
 It is not a model benchmark and it is not an employee ranking system.
